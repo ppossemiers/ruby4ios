@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		910BFB5E1556DC0C0033D396 /* rb2objc.m in Sources */ = {isa = PBXBuildFile; fileRef = 910BFB5D1556DC0C0033D396 /* rb2objc.m */; };
+		918EC37F153C5F11001A4985 /* EmbeddedRuby.h in Headers */ = {isa = PBXBuildFile; fileRef = 918EC37D153C5F11001A4985 /* EmbeddedRuby.h */; };
+		918EC380153C5F11001A4985 /* EmbeddedRuby.m in Sources */ = {isa = PBXBuildFile; fileRef = 918EC37E153C5F11001A4985 /* EmbeddedRuby.m */; };
+		A9A3478511038CE100DBEF9C /* zlib.c in Sources */ = {isa = PBXBuildFile; fileRef = A9A3478411038CE100DBEF9C /* zlib.c */; };
+		A9AD605A10FFAB48004BF022 /* class.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD605310FFAB48004BF022 /* class.c */; };
+		A9AD605B10FFAB48004BF022 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD605410FFAB48004BF022 /* error.c */; };
+		A9AD605C10FFAB48004BF022 /* eval.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD605510FFAB48004BF022 /* eval.c */; };
+		A9AD605D10FFAB48004BF022 /* gc.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD605610FFAB48004BF022 /* gc.c */; };
+		A9AD605E10FFAB48004BF022 /* object.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD605710FFAB48004BF022 /* object.c */; };
+		A9AD605F10FFAB48004BF022 /* parse.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD605810FFAB48004BF022 /* parse.c */; };
+		A9AD606010FFAB48004BF022 /* variable.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD605910FFAB48004BF022 /* variable.c */; };
+		A9AD606610FFAB72004BF022 /* dln.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD606210FFAB72004BF022 /* dln.c */; };
+		A9AD606710FFAB72004BF022 /* regex.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD606310FFAB72004BF022 /* regex.c */; };
+		A9AD606810FFAB72004BF022 /* st.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD606410FFAB72004BF022 /* st.c */; };
+		A9AD606910FFAB72004BF022 /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD606510FFAB72004BF022 /* util.c */; };
+		A9AD606F10FFABA2004BF022 /* dmyext.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD606B10FFABA2004BF022 /* dmyext.c */; };
+		A9AD607010FFABA2004BF022 /* inits.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD606C10FFABA2004BF022 /* inits.c */; };
+		A9AD607110FFABA2004BF022 /* ruby.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD606D10FFABA2004BF022 /* ruby.c */; };
+		A9AD607210FFABA2004BF022 /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD606E10FFABA2004BF022 /* version.c */; };
+		A9AD608A10FFABF7004BF022 /* array.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD607410FFABF7004BF022 /* array.c */; };
+		A9AD608B10FFABF7004BF022 /* bignum.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD607510FFABF7004BF022 /* bignum.c */; };
+		A9AD608C10FFABF7004BF022 /* compar.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD607610FFABF7004BF022 /* compar.c */; };
+		A9AD608D10FFABF7004BF022 /* dir.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD607710FFABF7004BF022 /* dir.c */; };
+		A9AD608E10FFABF7004BF022 /* enum.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD607810FFABF7004BF022 /* enum.c */; };
+		A9AD608F10FFABF7004BF022 /* file.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD607910FFABF7004BF022 /* file.c */; };
+		A9AD609010FFABF7004BF022 /* hash.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD607A10FFABF7004BF022 /* hash.c */; };
+		A9AD609110FFABF7004BF022 /* io.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD607B10FFABF7004BF022 /* io.c */; };
+		A9AD609210FFABF7004BF022 /* marshal.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD607C10FFABF7004BF022 /* marshal.c */; };
+		A9AD609310FFABF7004BF022 /* math.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD607D10FFABF7004BF022 /* math.c */; };
+		A9AD609410FFABF7004BF022 /* numeric.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD607E10FFABF7004BF022 /* numeric.c */; };
+		A9AD609510FFABF7004BF022 /* pack.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD607F10FFABF7004BF022 /* pack.c */; };
+		A9AD609610FFABF7004BF022 /* prec.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD608010FFABF7004BF022 /* prec.c */; };
+		A9AD609710FFABF7004BF022 /* process.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD608110FFABF7004BF022 /* process.c */; };
+		A9AD609810FFABF7004BF022 /* random.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD608210FFABF7004BF022 /* random.c */; };
+		A9AD609910FFABF7004BF022 /* range.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD608310FFABF7004BF022 /* range.c */; };
+		A9AD609A10FFABF7004BF022 /* re.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD608410FFABF7004BF022 /* re.c */; };
+		A9AD609B10FFABF7004BF022 /* signal.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD608510FFABF7004BF022 /* signal.c */; };
+		A9AD609C10FFABF7004BF022 /* sprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD608610FFABF7004BF022 /* sprintf.c */; };
+		A9AD609D10FFABF7004BF022 /* string.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD608710FFABF7004BF022 /* string.c */; };
+		A9AD609E10FFABF7004BF022 /* struct.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD608810FFABF7004BF022 /* struct.c */; };
+		A9AD609F10FFABF7004BF022 /* time.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD608910FFABF7004BF022 /* time.c */; };
+		A9AD616310FFAE87004BF022 /* enumerator.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD616210FFAE87004BF022 /* enumerator.c */; };
+		A9AD633710FFBFB0004BF022 /* finite.c in Sources */ = {isa = PBXBuildFile; fileRef = A9AD633610FFBFB0004BF022 /* finite.c */; };
+		A9F5C3311158267D0087622D /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = A9F5C3301158267D0087622D /* thread.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		910BFB5D1556DC0C0033D396 /* rb2objc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rb2objc.m; sourceTree = "<group>"; };
+		918EC37D153C5F11001A4985 /* EmbeddedRuby.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmbeddedRuby.h; sourceTree = "<group>"; };
+		918EC37E153C5F11001A4985 /* EmbeddedRuby.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmbeddedRuby.m; sourceTree = "<group>"; };
+		A9A3478411038CE100DBEF9C /* zlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = zlib.c; path = ruby_1_8_7/ext/zlib/zlib.c; sourceTree = "<group>"; };
+		A9AD605310FFAB48004BF022 /* class.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = class.c; path = ruby_1_8_7/class.c; sourceTree = "<group>"; };
+		A9AD605410FFAB48004BF022 /* error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = error.c; path = ruby_1_8_7/error.c; sourceTree = "<group>"; };
+		A9AD605510FFAB48004BF022 /* eval.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = eval.c; path = ruby_1_8_7/eval.c; sourceTree = "<group>"; };
+		A9AD605610FFAB48004BF022 /* gc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = gc.c; path = ruby_1_8_7/gc.c; sourceTree = "<group>"; };
+		A9AD605710FFAB48004BF022 /* object.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = object.c; path = ruby_1_8_7/object.c; sourceTree = "<group>"; };
+		A9AD605810FFAB48004BF022 /* parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = parse.c; path = ruby_1_8_7/parse.c; sourceTree = "<group>"; };
+		A9AD605910FFAB48004BF022 /* variable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = variable.c; path = ruby_1_8_7/variable.c; sourceTree = "<group>"; };
+		A9AD606210FFAB72004BF022 /* dln.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dln.c; path = ruby_1_8_7/dln.c; sourceTree = "<group>"; };
+		A9AD606310FFAB72004BF022 /* regex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = regex.c; path = ruby_1_8_7/regex.c; sourceTree = "<group>"; };
+		A9AD606410FFAB72004BF022 /* st.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = st.c; path = ruby_1_8_7/st.c; sourceTree = "<group>"; };
+		A9AD606510FFAB72004BF022 /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = util.c; path = ruby_1_8_7/util.c; sourceTree = "<group>"; };
+		A9AD606B10FFABA2004BF022 /* dmyext.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dmyext.c; path = ruby_1_8_7/dmyext.c; sourceTree = "<group>"; };
+		A9AD606C10FFABA2004BF022 /* inits.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = inits.c; path = ruby_1_8_7/inits.c; sourceTree = "<group>"; };
+		A9AD606D10FFABA2004BF022 /* ruby.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ruby.c; path = ruby_1_8_7/ruby.c; sourceTree = "<group>"; };
+		A9AD606E10FFABA2004BF022 /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = version.c; path = ruby_1_8_7/version.c; sourceTree = "<group>"; };
+		A9AD607410FFABF7004BF022 /* array.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = array.c; path = ruby_1_8_7/array.c; sourceTree = "<group>"; };
+		A9AD607510FFABF7004BF022 /* bignum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bignum.c; path = ruby_1_8_7/bignum.c; sourceTree = "<group>"; };
+		A9AD607610FFABF7004BF022 /* compar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = compar.c; path = ruby_1_8_7/compar.c; sourceTree = "<group>"; };
+		A9AD607710FFABF7004BF022 /* dir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dir.c; path = ruby_1_8_7/dir.c; sourceTree = "<group>"; };
+		A9AD607810FFABF7004BF022 /* enum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = enum.c; path = ruby_1_8_7/enum.c; sourceTree = "<group>"; };
+		A9AD607910FFABF7004BF022 /* file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = file.c; path = ruby_1_8_7/file.c; sourceTree = "<group>"; };
+		A9AD607A10FFABF7004BF022 /* hash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hash.c; path = ruby_1_8_7/hash.c; sourceTree = "<group>"; };
+		A9AD607B10FFABF7004BF022 /* io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = io.c; path = ruby_1_8_7/io.c; sourceTree = "<group>"; };
+		A9AD607C10FFABF7004BF022 /* marshal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = marshal.c; path = ruby_1_8_7/marshal.c; sourceTree = "<group>"; };
+		A9AD607D10FFABF7004BF022 /* math.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = math.c; path = ruby_1_8_7/math.c; sourceTree = "<group>"; };
+		A9AD607E10FFABF7004BF022 /* numeric.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = numeric.c; path = ruby_1_8_7/numeric.c; sourceTree = "<group>"; };
+		A9AD607F10FFABF7004BF022 /* pack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pack.c; path = ruby_1_8_7/pack.c; sourceTree = "<group>"; };
+		A9AD608010FFABF7004BF022 /* prec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = prec.c; path = ruby_1_8_7/prec.c; sourceTree = "<group>"; };
+		A9AD608110FFABF7004BF022 /* process.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = process.c; path = ruby_1_8_7/process.c; sourceTree = "<group>"; };
+		A9AD608210FFABF7004BF022 /* random.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = random.c; path = ruby_1_8_7/random.c; sourceTree = "<group>"; };
+		A9AD608310FFABF7004BF022 /* range.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = range.c; path = ruby_1_8_7/range.c; sourceTree = "<group>"; };
+		A9AD608410FFABF7004BF022 /* re.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = re.c; path = ruby_1_8_7/re.c; sourceTree = "<group>"; };
+		A9AD608510FFABF7004BF022 /* signal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = signal.c; path = ruby_1_8_7/signal.c; sourceTree = "<group>"; };
+		A9AD608610FFABF7004BF022 /* sprintf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sprintf.c; path = ruby_1_8_7/sprintf.c; sourceTree = "<group>"; };
+		A9AD608710FFABF7004BF022 /* string.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = string.c; path = ruby_1_8_7/string.c; sourceTree = "<group>"; };
+		A9AD608810FFABF7004BF022 /* struct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = struct.c; path = ruby_1_8_7/struct.c; sourceTree = "<group>"; };
+		A9AD608910FFABF7004BF022 /* time.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = time.c; path = ruby_1_8_7/time.c; sourceTree = "<group>"; };
+		A9AD616210FFAE87004BF022 /* enumerator.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = enumerator.c; path = ruby_1_8_7/enumerator.c; sourceTree = "<group>"; };
+		A9AD633610FFBFB0004BF022 /* finite.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = finite.c; path = ruby_1_8_7/missing/finite.c; sourceTree = "<group>"; };
+		A9F5C3301158267D0087622D /* thread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = thread.c; path = ruby_1_8_7/ext/thread/thread.c; sourceTree = "<group>"; };
+		D2AAC07E0554694100DB518D /* libEmbeddedRuby.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEmbeddedRuby.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libEmbeddedRuby.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* ShinyCocos */ = {
+			isa = PBXGroup;
+			children = (
+				918EC37B153C5EFB001A4985 /* Classes */,
+				A92F33EB102DD5C200C3B3FB /* ruby */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = ShinyCocos;
+			sourceTree = "<group>";
+		};
+		918EC37B153C5EFB001A4985 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				918EC37D153C5F11001A4985 /* EmbeddedRuby.h */,
+				918EC37E153C5F11001A4985 /* EmbeddedRuby.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A92F33EB102DD5C200C3B3FB /* ruby */ = {
+			isa = PBXGroup;
+			children = (
+				A9A3478211038C5A00DBEF9C /* ext */,
+				A9AD633410FFBFA1004BF022 /* missing */,
+				A9AD605110FFAAC8004BF022 /* core */,
+				A9AD606110FFAB4B004BF022 /* utility */,
+				A9AD606A10FFAB7B004BF022 /* interpreter */,
+				A9AD607310FFABA4004BF022 /* class library */,
+			);
+			name = ruby;
+			sourceTree = "<group>";
+		};
+		A9A3478211038C5A00DBEF9C /* ext */ = {
+			isa = PBXGroup;
+			children = (
+				910BFB5D1556DC0C0033D396 /* rb2objc.m */,
+				A9F5C3301158267D0087622D /* thread.c */,
+				A9A3478411038CE100DBEF9C /* zlib.c */,
+			);
+			name = ext;
+			sourceTree = "<group>";
+		};
+		A9AD605110FFAAC8004BF022 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				A9AD605310FFAB48004BF022 /* class.c */,
+				A9AD605410FFAB48004BF022 /* error.c */,
+				A9AD605510FFAB48004BF022 /* eval.c */,
+				A9AD605610FFAB48004BF022 /* gc.c */,
+				A9AD605710FFAB48004BF022 /* object.c */,
+				A9AD605810FFAB48004BF022 /* parse.c */,
+				A9AD605910FFAB48004BF022 /* variable.c */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		A9AD606110FFAB4B004BF022 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				A9AD606210FFAB72004BF022 /* dln.c */,
+				A9AD606310FFAB72004BF022 /* regex.c */,
+				A9AD606410FFAB72004BF022 /* st.c */,
+				A9AD606510FFAB72004BF022 /* util.c */,
+			);
+			name = utility;
+			sourceTree = "<group>";
+		};
+		A9AD606A10FFAB7B004BF022 /* interpreter */ = {
+			isa = PBXGroup;
+			children = (
+				A9AD606B10FFABA2004BF022 /* dmyext.c */,
+				A9AD606C10FFABA2004BF022 /* inits.c */,
+				A9AD606D10FFABA2004BF022 /* ruby.c */,
+				A9AD606E10FFABA2004BF022 /* version.c */,
+			);
+			name = interpreter;
+			sourceTree = "<group>";
+		};
+		A9AD607310FFABA4004BF022 /* class library */ = {
+			isa = PBXGroup;
+			children = (
+				A9AD616210FFAE87004BF022 /* enumerator.c */,
+				A9AD607410FFABF7004BF022 /* array.c */,
+				A9AD607510FFABF7004BF022 /* bignum.c */,
+				A9AD607610FFABF7004BF022 /* compar.c */,
+				A9AD607710FFABF7004BF022 /* dir.c */,
+				A9AD607810FFABF7004BF022 /* enum.c */,
+				A9AD607910FFABF7004BF022 /* file.c */,
+				A9AD607A10FFABF7004BF022 /* hash.c */,
+				A9AD607B10FFABF7004BF022 /* io.c */,
+				A9AD607C10FFABF7004BF022 /* marshal.c */,
+				A9AD607D10FFABF7004BF022 /* math.c */,
+				A9AD607E10FFABF7004BF022 /* numeric.c */,
+				A9AD607F10FFABF7004BF022 /* pack.c */,
+				A9AD608010FFABF7004BF022 /* prec.c */,
+				A9AD608110FFABF7004BF022 /* process.c */,
+				A9AD608210FFABF7004BF022 /* random.c */,
+				A9AD608310FFABF7004BF022 /* range.c */,
+				A9AD608410FFABF7004BF022 /* re.c */,
+				A9AD608510FFABF7004BF022 /* signal.c */,
+				A9AD608610FFABF7004BF022 /* sprintf.c */,
+				A9AD608710FFABF7004BF022 /* string.c */,
+				A9AD608810FFABF7004BF022 /* struct.c */,
+				A9AD608910FFABF7004BF022 /* time.c */,
+			);
+			name = "class library";
+			sourceTree = "<group>";
+		};
+		A9AD633410FFBFA1004BF022 /* missing */ = {
+			isa = PBXGroup;
+			children = (
+				A9AD633610FFBFB0004BF022 /* finite.c */,
+			);
+			name = missing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				918EC37F153C5F11001A4985 /* EmbeddedRuby.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* libEmbeddedRuby */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "libEmbeddedRuby" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libEmbeddedRuby;
+			productName = ShinyCocos;
+			productReference = D2AAC07E0554694100DB518D /* libEmbeddedRuby.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "EmbeddedRuby" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* ShinyCocos */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* libEmbeddedRuby */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AD605A10FFAB48004BF022 /* class.c in Sources */,
+				A9AD605B10FFAB48004BF022 /* error.c in Sources */,
+				A9AD605C10FFAB48004BF022 /* eval.c in Sources */,
+				A9AD605D10FFAB48004BF022 /* gc.c in Sources */,
+				A9AD605E10FFAB48004BF022 /* object.c in Sources */,
+				A9AD605F10FFAB48004BF022 /* parse.c in Sources */,
+				A9AD606010FFAB48004BF022 /* variable.c in Sources */,
+				A9AD606610FFAB72004BF022 /* dln.c in Sources */,
+				A9AD606710FFAB72004BF022 /* regex.c in Sources */,
+				A9AD606810FFAB72004BF022 /* st.c in Sources */,
+				A9AD606910FFAB72004BF022 /* util.c in Sources */,
+				A9AD606F10FFABA2004BF022 /* dmyext.c in Sources */,
+				A9AD607010FFABA2004BF022 /* inits.c in Sources */,
+				A9AD607110FFABA2004BF022 /* ruby.c in Sources */,
+				A9AD607210FFABA2004BF022 /* version.c in Sources */,
+				A9AD608A10FFABF7004BF022 /* array.c in Sources */,
+				A9AD608B10FFABF7004BF022 /* bignum.c in Sources */,
+				A9AD608C10FFABF7004BF022 /* compar.c in Sources */,
+				A9AD608D10FFABF7004BF022 /* dir.c in Sources */,
+				A9AD608E10FFABF7004BF022 /* enum.c in Sources */,
+				A9AD608F10FFABF7004BF022 /* file.c in Sources */,
+				A9AD609010FFABF7004BF022 /* hash.c in Sources */,
+				A9AD609110FFABF7004BF022 /* io.c in Sources */,
+				A9AD609210FFABF7004BF022 /* marshal.c in Sources */,
+				A9AD609310FFABF7004BF022 /* math.c in Sources */,
+				A9AD609410FFABF7004BF022 /* numeric.c in Sources */,
+				A9AD609510FFABF7004BF022 /* pack.c in Sources */,
+				A9AD609610FFABF7004BF022 /* prec.c in Sources */,
+				A9AD609710FFABF7004BF022 /* process.c in Sources */,
+				A9AD609810FFABF7004BF022 /* random.c in Sources */,
+				A9AD609910FFABF7004BF022 /* range.c in Sources */,
+				A9AD609A10FFABF7004BF022 /* re.c in Sources */,
+				A9AD609B10FFABF7004BF022 /* signal.c in Sources */,
+				A9AD609C10FFABF7004BF022 /* sprintf.c in Sources */,
+				A9AD609D10FFABF7004BF022 /* string.c in Sources */,
+				A9AD609E10FFABF7004BF022 /* struct.c in Sources */,
+				A9AD609F10FFABF7004BF022 /* time.c in Sources */,
+				A9AD616310FFAE87004BF022 /* enumerator.c in Sources */,
+				A9AD633710FFBFB0004BF022 /* finite.c in Sources */,
+				A9A3478511038CE100DBEF9C /* zlib.c in Sources */,
+				A9F5C3311158267D0087622D /* thread.c in Sources */,
+				918EC380153C5F11001A4985 /* EmbeddedRuby.m in Sources */,
+				910BFB5E1556DC0C0033D396 /* rb2objc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Philippe Possemiers (8TUR33NCQ5)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/EmbeddedRuby.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = EmbeddedRuby_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "./ruby_1_8_7/**";
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				KEEP_PRIVATE_EXTERNS = NO;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Ruby4iOS\"",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = EmbeddedRuby;
+				PROVISIONING_PROFILE = "20E6DBF2-C9D1-4941-9C87-CC9EE30CF2F7";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "./ruby_1_8_7/**";
+				VERSION_INFO_BUILDER = RubyLib;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Philippe Possemiers (8TUR33NCQ5)";
+				DSTROOT = /tmp/EmbeddedRuby.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = EmbeddedRuby_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "./ruby_1_8_7/**";
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Ruby4iOS\"",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = EmbeddedRuby;
+				PROVISIONING_PROFILE = "20E6DBF2-C9D1-4941-9C87-CC9EE30CF2F7";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "./ruby_1_8_7/**";
+				VERSION_INFO_BUILDER = RubyLib;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"./ruby_1_8_7/**",
+					"./rudl-0.8/include/**",
+					"../SDL-2.0/include/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"./ruby_1_8_7/**",
+					"./rudl-0.8/include/**",
+					"../SDL-2.0/include/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "libEmbeddedRuby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "EmbeddedRuby" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

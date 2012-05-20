@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91006CDA153C196E00590B99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91006CD9153C196E00590B99 /* UIKit.framework */; };
+		91006CDC153C196E00590B99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91006CDB153C196E00590B99 /* Foundation.framework */; };
+		91006CDE153C196E00590B99 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91006CDD153C196E00590B99 /* CoreGraphics.framework */; };
+		91006CE4153C196E00590B99 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91006CE2153C196E00590B99 /* InfoPlist.strings */; };
+		91006CEA153C196E00590B99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91006CE9153C196E00590B99 /* AppDelegate.m */; };
+		91006CED153C196E00590B99 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91006CEB153C196E00590B99 /* MainStoryboard_iPhone.storyboard */; };
+		91006CF0153C196E00590B99 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91006CEE153C196E00590B99 /* MainStoryboard_iPad.storyboard */; };
+		91006CF3153C196E00590B99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91006CF2153C196E00590B99 /* ViewController.m */; };
+		910BFB601557C7A20033D396 /* DOC.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 910BFB5F1557C7A20033D396 /* DOC.rtf */; };
+		9157EF2B15527DB000977BA2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9157EF2A15527DB000977BA2 /* QuartzCore.framework */; };
+		9157EF8415527EBA00977BA2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9157EF8315527EBA00977BA2 /* OpenGLES.framework */; };
+		9157EFA61552818800977BA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9157EFA51552818800977BA2 /* main.m */; };
+		9157EFBC155282C200977BA2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9157EFBB155282C200977BA2 /* AudioToolbox.framework */; };
+		916AC77E15414D3600E230F0 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 916AC77C15414CDC00E230F0 /* libz.1.2.5.dylib */; };
+		91807041156238F10040A94A /* TransparentDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91807040156238F10040A94A /* TransparentDrawingView.m */; };
+		918EC35D153C5A8E001A4985 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 918EC35C153C5A8E001A4985 /* Icon.png */; };
+		918EC3A3153C6982001A4985 /* scripts in Resources */ = {isa = PBXBuildFile; fileRef = 918EC3A2153C6982001A4985 /* scripts */; };
+		91B3060915678FDB0019DDDF /* libEmbeddedRuby.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B305FD15678DF10019DDDF /* libEmbeddedRuby.a */; };
+		91CA0704154C35A3006AA596 /* lib in Resources */ = {isa = PBXBuildFile; fileRef = 91CA0703154C35A3006AA596 /* lib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91B305FC15678DF10019DDDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91B305F515678DF10019DDDF /* EmbeddedRuby.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = libEmbeddedRuby;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91006CD5153C196E00590B99 /* Ruby4iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ruby4iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91006CD9153C196E00590B99 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		91006CDB153C196E00590B99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91006CDD153C196E00590B99 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		91006CE1153C196E00590B99 /* Ruby4iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ruby4iOS-Info.plist"; sourceTree = "<group>"; };
+		91006CE3153C196E00590B99 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91006CE7153C196E00590B99 /* Ruby4iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ruby4iOS-Prefix.pch"; sourceTree = "<group>"; };
+		91006CE8153C196E00590B99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		91006CE9153C196E00590B99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91006CEC153C196E00590B99 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		91006CEF153C196E00590B99 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		91006CF1153C196E00590B99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		91006CF2153C196E00590B99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		910BFB5F1557C7A20033D396 /* DOC.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = DOC.rtf; sourceTree = "<group>"; };
+		9157EF2A15527DB000977BA2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9157EF8315527EBA00977BA2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9157EFA51552818800977BA2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9157EFBB155282C200977BA2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		916AC77C15414CDC00E230F0 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		9180703F156238F10040A94A /* TransparentDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparentDrawingView.h; sourceTree = "<group>"; };
+		91807040156238F10040A94A /* TransparentDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparentDrawingView.m; sourceTree = "<group>"; };
+		918EC35C153C5A8E001A4985 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		918EC3A2153C6982001A4985 /* scripts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = scripts; sourceTree = "<group>"; };
+		91B305F515678DF10019DDDF /* EmbeddedRuby.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EmbeddedRuby.xcodeproj; path = EmbeddedRuby/EmbeddedRuby.xcodeproj; sourceTree = "<group>"; };
+		91CA0703154C35A3006AA596 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91006CD2153C196E00590B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B3060915678FDB0019DDDF /* libEmbeddedRuby.a in Frameworks */,
+				9157EFBC155282C200977BA2 /* AudioToolbox.framework in Frameworks */,
+				9157EF8415527EBA00977BA2 /* OpenGLES.framework in Frameworks */,
+				916AC77E15414D3600E230F0 /* libz.1.2.5.dylib in Frameworks */,
+				91006CDA153C196E00590B99 /* UIKit.framework in Frameworks */,
+				91006CDC153C196E00590B99 /* Foundation.framework in Frameworks */,
+				91006CDE153C196E00590B99 /* CoreGraphics.framework in Frameworks */,
+				9157EF2B15527DB000977BA2 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91006CCA153C196E00590B99 = {
+			isa = PBXGroup;
+			children = (
+				91006CDF153C196E00590B99 /* Ruby4iOS */,
+				91006CD8153C196E00590B99 /* Frameworks */,
+				91006CD6153C196E00590B99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91006CD6153C196E00590B99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91006CD5153C196E00590B99 /* Ruby4iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91006CD8153C196E00590B99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91B305F515678DF10019DDDF /* EmbeddedRuby.xcodeproj */,
+				916AC77C15414CDC00E230F0 /* libz.1.2.5.dylib */,
+				9157EFBB155282C200977BA2 /* AudioToolbox.framework */,
+				9157EF8315527EBA00977BA2 /* OpenGLES.framework */,
+				9157EF2A15527DB000977BA2 /* QuartzCore.framework */,
+				91006CD9153C196E00590B99 /* UIKit.framework */,
+				91006CDB153C196E00590B99 /* Foundation.framework */,
+				91006CDD153C196E00590B99 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91006CDF153C196E00590B99 /* Ruby4iOS */ = {
+			isa = PBXGroup;
+			children = (
+				918EC390153C6702001A4985 /* Resources */,
+				91006CFA153C19B200590B99 /* StoryBoards */,
+				91006CF9153C199D00590B99 /* Classes */,
+				91006CE0153C196E00590B99 /* Supporting Files */,
+			);
+			path = Ruby4iOS;
+			sourceTree = "<group>";
+		};
+		91006CE0153C196E00590B99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9157EFA51552818800977BA2 /* main.m */,
+				918EC35C153C5A8E001A4985 /* Icon.png */,
+				91006CE1153C196E00590B99 /* Ruby4iOS-Info.plist */,
+				91006CE2153C196E00590B99 /* InfoPlist.strings */,
+				91006CE7153C196E00590B99 /* Ruby4iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91006CF9153C199D00590B99 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				91006CF1153C196E00590B99 /* ViewController.h */,
+				91006CF2153C196E00590B99 /* ViewController.m */,
+				91006CE8153C196E00590B99 /* AppDelegate.h */,
+				91006CE9153C196E00590B99 /* AppDelegate.m */,
+				9180703F156238F10040A94A /* TransparentDrawingView.h */,
+				91807040156238F10040A94A /* TransparentDrawingView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		91006CFA153C19B200590B99 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				91006CEB153C196E00590B99 /* MainStoryboard_iPhone.storyboard */,
+				91006CEE153C196E00590B99 /* MainStoryboard_iPad.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		918EC390153C6702001A4985 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				91CA0703154C35A3006AA596 /* lib */,
+				918EC3A2153C6982001A4985 /* scripts */,
+				910BFB5F1557C7A20033D396 /* DOC.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		91B305F615678DF10019DDDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91B305FD15678DF10019DDDF /* libEmbeddedRuby.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91006CD4153C196E00590B99 /* Ruby4iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91006CF6153C196E00590B99 /* Build configuration list for PBXNativeTarget "Ruby4iOS" */;
+			buildPhases = (
+				91006CD1153C196E00590B99 /* Sources */,
+				91006CD2153C196E00590B99 /* Frameworks */,
+				91006CD3153C196E00590B99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ruby4iOS;
+			productName = Ruby4iOS;
+			productReference = 91006CD5153C196E00590B99 /* Ruby4iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91006CCC153C196E00590B99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 91006CCF153C196E00590B99 /* Build configuration list for PBXProject "Ruby4iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 91006CCA153C196E00590B99;
+			productRefGroup = 91006CD6153C196E00590B99 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 91B305F615678DF10019DDDF /* Products */;
+					ProjectRef = 91B305F515678DF10019DDDF /* EmbeddedRuby.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				91006CD4153C196E00590B99 /* Ruby4iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		91B305FD15678DF10019DDDF /* libEmbeddedRuby.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libEmbeddedRuby.a;
+			remoteRef = 91B305FC15678DF10019DDDF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91006CD3153C196E00590B99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91006CE4153C196E00590B99 /* InfoPlist.strings in Resources */,
+				91006CED153C196E00590B99 /* MainStoryboard_iPhone.storyboard in Resources */,
+				91006CF0153C196E00590B99 /* MainStoryboard_iPad.storyboard in Resources */,
+				918EC35D153C5A8E001A4985 /* Icon.png in Resources */,
+				918EC3A3153C6982001A4985 /* scripts in Resources */,
+				91CA0704154C35A3006AA596 /* lib in Resources */,
+				910BFB601557C7A20033D396 /* DOC.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91006CD1153C196E00590B99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91006CEA153C196E00590B99 /* AppDelegate.m in Sources */,
+				91006CF3153C196E00590B99 /* ViewController.m in Sources */,
+				9157EFA61552818800977BA2 /* main.m in Sources */,
+				91807041156238F10040A94A /* TransparentDrawingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91006CE2153C196E00590B99 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91006CE3153C196E00590B99 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		91006CEB153C196E00590B99 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91006CEC153C196E00590B99 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		91006CEE153C196E00590B99 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91006CEF153C196E00590B99 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91006CF4153C196E00590B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91006CF5153C196E00590B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91006CF7153C196E00590B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ruby4iOS/Ruby4iOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"./EmbeddedRuby/**",
+					"./EmbeddedRuby/ruby_1_8_7/**",
+				);
+				INFOPLIST_FILE = "Ruby4iOS/Ruby4iOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../EmbeddedRuby\"",
+					"\"$(SRCROOT)/../../../.Trash\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		91006CF8153C196E00590B99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ruby4iOS/Ruby4iOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"./EmbeddedRuby/**",
+					"./EmbeddedRuby/ruby_1_8_7/**",
+				);
+				INFOPLIST_FILE = "Ruby4iOS/Ruby4iOS-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../EmbeddedRuby\"",
+					"\"$(SRCROOT)/../../../.Trash\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91006CCF153C196E00590B99 /* Build configuration list for PBXProject "Ruby4iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91006CF4153C196E00590B99 /* Debug */,
+				91006CF5153C196E00590B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91006CF6153C196E00590B99 /* Build configuration list for PBXNativeTarget "Ruby4iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91006CF7153C196E00590B99 /* Debug */,
+				91006CF8153C196E00590B99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91006CCC153C196E00590B99 /* Project object */;
+}
