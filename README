@@ -1,7 +1,6 @@
 Ruby4iOS is an embedded Ruby interpreter for the iOS operating system with a few bindings to interface elements.
 THis is an example of how to use it (example script is included in the code) :
 
-require 'erb'
 
 # First TextView example
 x = 1
