@@ -1,7 +1,7 @@
 Ruby4iOS is an embedded Ruby interpreter for the iOS operating system with a few bindings to interface elements.
 THis is an example of how to use it (example script is included in the code) :
 
-
+```
 # First TextView example
 x = 1
 42.times do
@@ -31,3 +31,4 @@ end
 first_counter = GuineaCounter.new
 first_counter.double_count
 RB2OBJC::invoke('outputTextView', 'setText', ['Het resultaat : ' + first_counter.double_count.to_s])
+```
